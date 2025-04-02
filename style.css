@@ -260,18 +260,18 @@ nav {
 }
 
 .projects-section-content-1{
-  display:contents;
+  display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 50px;
-  justify-content: center;
-  width: 100%;
+  justify-content: space-between;
+  width: 80%;
 }
 
 .projects-section-content-2 {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 50px;
-  justify-content: space-between;
+  justify-content: space-between; 
   width: 100%;
 }
 
@@ -483,6 +483,9 @@ nav {
 
 .projects-section button{
   color: #ffffff;
+  align-items: center;
+  justify-content: center;
+  display: block;
   background-color: #000000;
   border-color: #858585;
   border-radius: 5px;
@@ -497,8 +500,10 @@ nav {
 }
 
 .pro-link {
-  display: flex;
-  justify-content: space-evenly;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  align-items: center;
+  justify-content: space-between;
   gap: 20px; /* Adjust the gap between links */
   margin-bottom: 40px; /* Add some space below the links */
 }
@@ -595,7 +600,7 @@ nav {
   }
 
   .skills-section-content {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 15px 30px;
     justify-content: space-between;
     align-items: center;
@@ -649,20 +654,108 @@ nav {
     font-size: 30px;
   }
 
-  .projects-section-content {
+.projects-section-content {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr); /* Change to 1 column on mobile */
+  gap: 20px; /* Adjust the gap between items */
+  justify-content: center; /* Center items */
+  width: 100%; /* Ensure it takes full width */
+ }
+
+.projects-section-content-item {
+  display: flex;
+  flex-direction: column;
+  gap: 10px; /* Adjust gap for mobile */
+}
+
+.projects-section-content-item blockquote {
+  width: 100%; /* Make blockquote responsive */
+}
+
+.projects-section-content-item div {
+  display: flex;
+  flex-direction: column;
+  gap: 6px; /* Adjust gap for mobile */
+}
+
+.projects-section-content-item h3 {
+  font-size: 18px; /* Adjust font size for mobile */
+}
+
+.projects-section-content-item span {
+ font-size: 14px; /* Adjust font size for mobile */
+}
+
+
+/* Projects Section */
+.projects-section-content-1 {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr); /* Change to 1 column on mobile */
+  gap: 20px; /* Adjust the gap between items */
+  justify-content: center; /* Center items */
+  width: 100%; /* Ensure it takes full width */
+}
+
+/* Adjustments for individual video items */
+.projects-section-content-item-1 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px; /* Adjust gap for mobile */
+}
+
+.projects-section-content-item-1 iframe {
+  width: 100%; /* Make iframe responsive */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.projects-section-content-2 {
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+  .projects-section-content-item-2 span {
+    font-size: 14px;
+  }
+
+  .projects-section-content-item-2 h3 {
+    font-size: 18px;
+  }
+
+  .projects-section-content-item-2 a {
+    font-size: 14px;
+  }
+
+  .projects-section-content-3 {
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
   }
 
-  .projects-section-content-item span {
+  .projects-section-content-item-3 span {
     font-size: 14px;
   }
 
-  .projects-section-content-item h3 {
+  .projects-section-content-item-3 h3 {
     font-size: 18px;
   }
 
-  .projects-section-content-item a {
+  .projects-section-content-item-3 a {
+    font-size: 14px;
+  }
+
+  .projects-section-content-4 {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+
+  .projects-section-content-item-4 span {
+    font-size: 14px;
+  }
+
+  .projects-section-content-item-4 h3 {
+    font-size: 18px;
+  }
+
+  .projects-section-content-item-4 a {
     font-size: 14px;
   }
 
