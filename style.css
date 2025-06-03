@@ -276,6 +276,7 @@ nav {
   font-size: 44px;
   font-weight: normal;
   margin: 0;
+  align-items: center;
 }
 
 .projects-section-content{
@@ -325,7 +326,7 @@ nav {
 }
 
 .projects-section p{
-  color: #000000;
+  color: #ffffff;
 }
 
 
@@ -532,6 +533,37 @@ nav {
   transition: all 0.5s ease-in-out;
 }
 
+/* Sketchfab Wrapper */
+.sketchfab-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  width: 100%;
+}
+
+.sketchfab-wrapper iframe {
+  width: 100%;
+  max-width: 900px;
+  height: 600px;
+  border: none;
+  border-radius: 12px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .sketchfab-wrapper iframe {
+    height: 400px;
+  }
+}
+
+@media (max-width: 480px) {
+  .sketchfab-wrapper iframe {
+    height: 300px;
+  }
+}
+
+
 .pro-link {
   display: grid;
   grid-template-columns: repeat(2,1fr);
@@ -685,6 +717,7 @@ nav {
 
   .projects-section h2 {
     font-size: 30px;
+    align-items: center;
   }
 
 .projects-section-content {
