@@ -281,7 +281,7 @@ nav {
 
 .projects-section-content{
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 50px;
   justify-content: space-between;
   width: 100%;
@@ -568,16 +568,17 @@ nav {
   display: grid;
   grid-template-columns: repeat(2,1fr);
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   gap: 20px; /* Adjust the gap between links */
   margin-bottom: 40px; /* Add some space below the links */
 }
 
 .pro-link span a {
   text-decoration: none;
+  align-items: center;
   color: #ffffff; /* Link color */
   font-weight: 500; /* Adjust font weight if needed */
-  font-size: 18px; /* Adjust font size if needed */
+  font-size: 25px; /* Adjust font size if needed */
 }
 
 .pro-link span a:hover {
