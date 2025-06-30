@@ -136,6 +136,10 @@ nav {
   flex-direction: column;
   gap: 40px;
   padding: 80px;
+    border: 8px solid #ffffff;            /* Add border to all */
+  border-radius: 20px;               /* All corners rounded equally */
+  padding: 3rem;
+  background:transparent;
 }
 
 .skills-section h2 {
@@ -150,6 +154,10 @@ nav {
   justify-content: center;
   align-items: center;
   gap: 40px;
+  /* border: 8px solid #ffffff;           
+  border-radius: 10px;               
+  padding: 3rem;
+  background:transparent; */
 }
 
 .skills-section-content-item {
@@ -185,7 +193,7 @@ nav {
   background-color: #333;
   color: #fff;
   padding: 4px 10px;
-  border-radius: 10px;
+  border-radius: 20px;
   font-size: 13px;
   white-space: nowrap;
   opacity: 0;
@@ -219,7 +227,14 @@ nav {
   display: flex;
   gap: 40px;
   justify-content:center;
-  width: 100%;
+  width: 50%;
+    margin-top: 20px;
+  margin-left: 10rem;
+  margin-right: 10rem;
+  border: 8px solid #ffffff;            /* Add border to all */
+  border-radius: 20px;               /* All corners rounded equally */
+  padding: 3rem;
+  background:transparent;
 }
 
 .education-section-content-item {
@@ -275,7 +290,7 @@ nav {
 .projects-section h2 {
   font-size: 44px;
   font-weight: normal;
-  margin: 0;
+  margin-top: 1rem;
   align-items: center;
 }
 
@@ -285,6 +300,10 @@ nav {
   gap: 50px;
   justify-content: space-between;
   width: 100%;
+  border: 8px solid #ffffff;            /* Add border to all */
+  border-radius: 20px;               /* All corners rounded equally */
+  padding: 3rem;
+  background:transparent;
 }
 
 .projects-section-content-item {
@@ -299,6 +318,10 @@ nav {
   gap: 70px;
   justify-content: space-between;
   width: 80%;
+  border: 8px solid #ffffff;            /* Add border to all */
+  border-radius: 20px;               /* All corners rounded equally */
+  padding: 3rem;
+  background:transparent;
 }
 
 .projects-section-content-2 {
@@ -307,6 +330,10 @@ nav {
   gap: 50px;
   justify-content: space-between; 
   width: 100%;
+  border: 8px solid #ffffff;            /* Add border to all */
+  border-radius: 20px;               /* All corners rounded equally */
+  padding: 3rem;
+  background:transparent;
 }
 
 .projects-section-content-3{
@@ -315,6 +342,14 @@ nav {
   gap: 50px;
   justify-content: space-between;
   width: 100%;
+  border: 8px solid #ffffff;            /* Add border to all */
+  border-radius: 20px;               /* All corners rounded equally */
+  /* padding: 3rem; */
+  padding-top: 1rem;
+  padding-right: 2rem;
+  padding-left: 2rem;
+  padding-bottom: 8rem;
+  background:transparent;
 }
 
 .projects-section-content-4{
@@ -323,6 +358,10 @@ nav {
   gap: 50px;
   justify-content: space-between;
   width: 100%;
+  border: 8px solid #ffffff;            /* Add border to all */
+  border-radius: 20px;               /* All corners rounded equally */
+  padding: 3rem;
+  background:transparent;
 }
 
 .projects-section p{
@@ -340,6 +379,10 @@ nav {
  display: grid;
  grid-template-columns: repeat(2, 1fr);
  gap: 250px;
+  border: 8px solid #ffffff;            /* Add border to all */
+  border-radius: 20px;               /* All corners rounded equally */
+  padding: 3rem;
+  background:transparent;
 }
 
 .reels-container {
@@ -360,12 +403,16 @@ nav {
   justify-content: center;
   gap: 20px;
   margin-top: 20px;
+  border: 8px solid #ffffff;            /* Add border to all */
+  border-radius: 20px;               /* All corners rounded equally */
+  padding: 1rem;
+  background:transparent;
 }
 
 /* Optional: constrain the width of the embed on large screens */
 .reels-container blockquote.instagram-media {
-  max-width: 320px; /* or 400px if you prefer larger embeds */
-  width: 100%;
+  max-width: 80px; /* or 400px if you prefer larger embeds */
+  width: 80%;
   margin: 0 auto;
 }
 
@@ -579,11 +626,16 @@ nav {
 
 /* Sketchfab Wrapper */
 .sketchfab-wrapper {
-  display: flex;
+  display:flex;
   justify-content: center;
   align-items: center;
+  margin-top: 2rem;
   padding: 20px;
-  width: 100%;
+  width: 85%;
+  border: 8px solid #ffffff;            /* Add border to all */
+  border-radius: 20px;               /* All corners rounded equally */
+  /* padding: 3rem; */
+  background:transparent;
 }
 
 .sketchfab-wrapper iframe {
@@ -615,6 +667,10 @@ nav {
   justify-content: center;
   gap: 20px; /* Adjust the gap between links */
   margin-bottom: 40px; /* Add some space below the links */
+  border: 8px solid #ffffff;            /* Add border to all */
+  border-radius: 20px;               /* All corners rounded equally */
+  padding: 3rem;
+  background:transparent;
 }
 
 .pro-link span a {
@@ -711,7 +767,7 @@ nav {
 
   .skills-section-content {
     grid-template-columns: repeat(2, 1fr);
-    gap: 15px 30px;
+    gap: 40px 30px;
     justify-content: space-between;
     align-items: center;
   }
@@ -755,6 +811,13 @@ nav {
     font-size: 14px;
   }
 
+.pro-link{
+  border: 8px solid #ffffff;            /* Add border to all */
+  border-radius: 20px;               /* All corners rounded equally */
+  padding: 1rem;
+  background:transparent;
+}
+
   /* Projects Section */
   .projects-section {
     padding: 40px 20px;
@@ -763,6 +826,7 @@ nav {
   .projects-section h2 {
     font-size: 30px;
     align-items: center;
+    margin-top: 1rem;
   }
 
 .projects-section-content {
@@ -771,6 +835,10 @@ nav {
   gap: 20px; /* Adjust the gap between items */
   justify-content: center; /* Center items */
   width: 100%; /* Ensure it takes full width */
+  border: 8px solid #ffffff;            /* Add border to all */
+  border-radius: 20px;               /* All corners rounded equally */
+  padding: 1rem;
+  background:transparent;
  }
 
 .projects-section-content-item {
@@ -805,6 +873,11 @@ nav {
   gap: 20px; /* Adjust the gap between items */
   justify-content: center; /* Center items */
   width: 100%; /* Ensure it takes full width */
+  border: 8px solid #ffffff;            /* Add border to all */
+  border-radius: 20px;               /* All corners rounded equally */
+  padding: 1rem;
+  background:transparent;
+  
 }
 
 /* Adjustments for individual video items */
@@ -823,11 +896,29 @@ nav {
 grid-column:auto;
   align-items: center;
   gap: 20px;
+  border: 8px solid #ffffff;            /* Add border to all */
+  border-radius: 20px;               /* All corners rounded equally */
+  padding: 1rem;
+  background:transparent;
+}
+
+.buttons{
+ display: grid;
+ grid-template-columns: repeat(2, 1fr);
+ gap: 50px;
+ border: 8px solid #ffffff;            /* Add border to all */
+  border-radius: 20px;               /* All corners rounded equally */
+  padding: 1rem;
+  background:transparent;
 }
 
 .projects-section-content-2 {
   grid-template-columns: repeat(2, 1fr);
   gap: 20px;
+  border: 8px solid #ffffff;            /* Add border to all */
+  border-radius: 20px;               /* All corners rounded equally */
+  padding: 1rem;
+  background:transparent;
 }
 
   .projects-section-content-item-2 span {
@@ -845,6 +936,11 @@ grid-column:auto;
   .projects-section-content-3 {
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
+  border: 8px solid #ffffff;            /* Add border to all */
+  border-radius: 20px;               /* All corners rounded equally */
+  padding: 1rem;
+  padding-bottom: 7rem;
+  background:transparent;
   }
 
   .projects-section-content-item-3 span {
@@ -862,6 +958,10 @@ grid-column:auto;
   .projects-section-content-4 {
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
+    border: 8px solid #ffffff;            /* Add border to all */
+  border-radius: 20px;               /* All corners rounded equally */
+  padding: 1rem;
+  background:transparent;
   }
 
   .projects-section-content-item-4 span {
