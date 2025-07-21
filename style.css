@@ -29,7 +29,32 @@ nav {
   justify-content: space-between;
   align-items: center;
   padding: 20px;
-  background-color: #000000;
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+
+}
+
+.nav-links a {
+  text-decoration: underline;
+  color: #ffffff;
+}
+
+.social-icons {
+  display: flex;
+  gap: 30px;
+}
+
+/* Default (Desktop) View */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 30px 20px;
+
 }
 
 .nav-links {
@@ -37,14 +62,32 @@ nav {
   gap: 20px;
 }
 
-.nav-links a {
-  text-decoration: none;
-  color: #ffffff;
-}
-
 .social-icons {
   display: flex;
-  gap: 30px;
+  gap: 15px;
+}
+
+.profile-icon img {
+  height: 50px;
+}
+
+/* Mobile View */
+@media (max-width: 768px) {
+
+  .social-icons {
+    justify-content: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+
+  .profile-icon {
+    order: 3;
+   margin: 5px;
+  }
+
+  .profile-icon img {
+    height: 40px;
+  }
 }
 
 .profile-icon img {
@@ -624,6 +667,69 @@ nav {
   transition: all 0.5s ease-in-out;
 }
 
+.contact-section {
+  background: #111;
+  color: #fff;
+  padding: 30px 20px;
+  text-align: center;
+  border-radius: 1rem;
+}
+
+.contact-container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.contact-container h2 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  color: #00ffcc;
+}
+
+.contact-container p {
+  font-size: 1rem;
+  margin-bottom: 30px;
+  color: #aaa;
+}
+
+#contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+#contact-form input,
+#contact-form textarea {
+  padding: 15px;
+  border: none;
+  border-radius: 10px;
+  background: #222;
+  color: white;
+  font-size: 1rem;
+  resize: none;
+}
+
+#contact-form input:focus,
+#contact-form textarea:focus {
+  outline: 2px solid #00ffcc;
+}
+
+#contact-form button {
+  padding: 12px 20px;
+  background: #00ffcc;
+  color: #000;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+#contact-form button:hover {
+  background: #00ddaa;
+}
+
 /* Sketchfab Wrapper */
 .sketchfab-wrapper {
   display:flex;
@@ -717,9 +823,43 @@ nav {
 /* Responsive */
 @media (max-width: 768px) {
   /* Navbar */
-  nav .social-icons {
-    display: none;
+
+.social-icons {
+  display: flex !important;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 15px;
+}
+
+.social-icons a {
+  color: #fff;
+  font-size: 1.5rem;
+  transition: color 0.3s;
+}
+
+.social-icons a:hover {
+  color: #00ffcc;
+}
+
+/* Responsive spacing */
+@media (max-width: 768px) {
+  .social-icons {
+    margin-top: 20px;
   }
+}
+
+@media (max-width: 768px) {
+  .social-icons {
+    order: 1; /* Show after nav items */
+    justify-content: center;
+    margin-top: 30px;
+    width: 100%;
+  }
+  nav {
+    flex-direction: column;
+    align-items: center;
+  }
+}
 
   /* Top Hero Section */
   .top-hero-content {
