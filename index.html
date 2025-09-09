@@ -18,16 +18,23 @@
   </head>
   <body>
     <!-- HEADER SECTION STARTS -->
-    <header class="section">
+    <header class="section sticky-nav">
       <nav>
         <div class="nav-links">
           <span><a href="#about">About</a></span>
           <span><a href="#skills">Skills</a></span>
           <span><a href="#education">Education</a></span>
-          <span><a href="#projects">Projects</a></span>
-        </div>
-        <div class="profile-icon">
-          <img src="./assets/skills/logo.png" alt="Profile" />
+          <span class="dropdown">
+            <a href="#projects">Projects</a>
+            <div class="dropdown-content">
+              <a href="#Photography">Photography</a>
+              <a href="#Videdit">Video Editing</a>
+              <a href="#Thumbnails">Thumbnails</a>
+              <a href="#webdev">Web Development</a>
+              <a href="#poster">Posters & Illustrations</a>
+              <a href="#pcb">PCB Designing</a>
+            </div>
+          </span>
         </div>
         <div class="social-icons">
           <a href="https://wa.me/7506104767" target="_blank">
@@ -68,7 +75,7 @@
               <br/>
               
               <br/>
-              <b><u>Let's connect and discuss your next level cretivity idea's</u></b>.
+              <b><u>Let's connect and discuss your next level creative idea's</u></b>.
             </h3>
           </div>
           <div class="hero-section-left-content">
@@ -102,59 +109,77 @@
       <div class="skills-section">
         <h2>My Skills</h2>
         <div class="skills-section-content">
-          <div class="skills-section-content-item" data-tooltip="HTML">
+          <div class="skills-section-content-item" data-percent="90%" style="--percent: 90%">
             <img src="./assets/skills/html.png" alt="HTML" />
+            <span class="skill-name">HTML</span>
           </div>
-          <div class="skills-section-content-item" data-tooltip="CSS">
+          <div class="skills-section-content-item" data-percent="85%" style="--percent: 85%">
             <img src="./assets/skills/css.png" alt="CSS" />
+            <span class="skill-name">CSS</span>
           </div>
-          <div class="skills-section-content-item" data-tooltip="Git">
-            <img src="./assets/skills/git.png"alt="Git"/>
+          <div class="skills-section-content-item" data-percent="75%" style="--percent: 75%">
+            <img src="./assets/skills/git.png" alt="Git"/>
+            <span class="skill-name">Git</span>
           </div>
-          <div class="skills-section-content-item" data-tooltip="Github">
-            <img src="./assets/skills/github.png"alt="Github"/>
+          <div class="skills-section-content-item" data-percent="80%" style="--percent: 80%">
+            <img src="./assets/skills/github.png" alt="Github"/>
+            <span class="skill-name">Github</span>
           </div>
-          <div class="skills-section-content-item" data-tooltip="C#">
+          <div class="skills-section-content-item" data-percent="70%" style="--percent: 70%">
             <img src= "assets/skills/c-sharp.png" alt="C#" />
+            <span class="skill-name">C#</span>
           </div>
-          <div class="skills-section-content-item" data-tooltip="C">
-            <img src="./assets/skills/c logo.png"alt="C" />
+          <div class="skills-section-content-item" data-percent="85%" style="--percent: 85%">
+            <img src="./assets/skills/c logo.png" alt="C" />
+            <span class="skill-name">C</span>
           </div>
-          <div class="skills-section-content-item" data-tooltip="C++">
-            <img src="./assets/skills/c++.png"alt="C++" />
+          <div class="skills-section-content-item" data-percent="75%" style="--percent: 75%">
+            <img src="./assets/skills/c++.png" alt="C++" />
+            <span class="skill-name">C++</span>
           </div>
-          <div class="skills-section-content-item" data-tooltip="Python">
-            <img src="./assets/skills/Python logo.png"alt="Python" />
+          <div class="skills-section-content-item" data-percent="80%" style="--percent: 80%">
+            <img src="./assets/skills/Python logo.png" alt="Python" />
+            <span class="skill-name">Python</span>
           </div>
-          <div class="skills-section-content-item" data-tooltip="Canva">
-            <img src="./assets/skills/canva logo.png"alt="Canva" />
+          <div class="skills-section-content-item" data-percent="95%" style="--percent: 95%">
+            <img src="./assets/skills/canva logo.png" alt="Canva" />
+            <span class="skill-name">Canva</span>
           </div>
-          <div class="skills-section-content-item" data-tooltip="Gimp">
-            <img src="./assets/skills/Gimp-logo.png"alt="Gimp" />
+          <div class="skills-section-content-item" data-percent="85%" style="--percent: 85%">
+            <img src="./assets/skills/Gimp-logo.png" alt="Gimp" />
+            <span class="skill-name">Gimp</span>
           </div>
-          <div class="skills-section-content-item" data-tooltip="Lightroom">
-            <img src="./assets/skills/lightroom.png"alt="Lightroom" />
+          <div class="skills-section-content-item" data-percent="90%" style="--percent: 90%">
+            <img src="./assets/skills/lightroom.png" alt="Lightroom" />
+            <span class="skill-name">Lightroom</span>
           </div>
-          <div class="skills-section-content-item" data-tooltip="Capcut">
-            <img src="./assets/skills/capcut.png"alt="Capcut"/>
+          <div class="skills-section-content-item" data-percent="85%" style="--percent: 85%">
+            <img src="./assets/skills/capcut.png" alt="Capcut"/>
+            <span class="skill-name">Capcut</span>
           </div>
-          <div class="skills-section-content-item" data-tooltip="Figma">
-            <img src="./assets/skills/figma.png"alt="Figma"/>
+          <div class="skills-section-content-item" data-percent="75%" style="--percent: 75%">
+            <img src="./assets/skills/figma.png" alt="Figma"/>
+            <span class="skill-name">Figma</span>
           </div>
-          <div class="skills-section-content-item" data-tooltip="Notion">
-            <img src="./assets/skills/notion.png"alt="Notion"/>
+          <div class="skills-section-content-item" data-percent="90%" style="--percent: 90%">
+            <img src="./assets/skills/notion.png" alt="Notion"/>
+            <span class="skill-name">Notion</span>
           </div>
-          <div class="skills-section-content-item" data-tooltip="Kicad">
-            <img src="./assets/skills/kicad.png"alt="Kicad"/>
+          <div class="skills-section-content-item" data-percent="80%" style="--percent: 80%">
+            <img src="./assets/skills/kicad.png" alt="Kicad"/>
+            <span class="skill-name">Kicad</span>
           </div>
-          <div class="skills-section-content-item" data-tooltip="Arduino IDE">
-            <img src="./assets/skills/arduino ide.png"alt="Arduino IDE"/>
+          <div class="skills-section-content-item" data-percent="85%" style="--percent: 85%">
+            <img src="./assets/skills/arduino ide.png" alt="Arduino IDE"/>
+            <span class="skill-name">Arduino IDE</span>
           </div>
-          <div class="skills-section-content-item" data-tooltip="Blynk IoT">
-            <img src="./assets/skills/blynk iot.png"alt="BLynk Iot"/>
+          <div class="skills-section-content-item" data-percent="80%" style="--percent: 80%">
+            <img src="./assets/skills/blynk iot.png" alt="Blynk IoT"/>
+            <span class="skill-name">Blynk IoT</span>
           </div>
-          <div class="skills-section-content-item" data-tooltip="Thing Speak Iot">
-            <img src="./assets/skills/thingspeak iot.jpeg"alt="Thing Speak Iot"/>
+          <div class="skills-section-content-item" data-percent="75%" style="--percent: 75%">
+            <img src="./assets/skills/thingspeak iot.jpeg" alt="ThingSpeak IoT"/>
+            <span class="skill-name">ThingSpeak IoT</span>
           </div>
         </div>
       </div>
@@ -206,7 +231,7 @@
               <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DEu1IqHsx1E/" data-instgrm-version="14"></blockquote>
             </div>
             <script async src="https://www.instagram.com/embed.js"></script>
-            <div>
+            <div class="post-info">
               <span>Instagram Post</span>
               <h3>Photograph's till 2024</h3>
               <a href="https://www.instagram.com/p/DEu1IqHsx1E/"><button>View Post</button></a>
@@ -301,7 +326,62 @@
             </div>
         </div> 
        <script async src="//www.instagram.com/embed.js"></script>
+       <script>
+        window.addEventListener('load', function() {
+          // Function to adjust Instagram embed sizes
+          function adjustInstagramEmbeds() {
+            // Get all Instagram embeds
+            var embeds = document.getElementsByClassName('instagram-media');
+            
+            // Set custom size for each embed
+            for (var i = 0; i < embeds.length; i++) {
+              var embed = embeds[i];
+              
+              // Check if it's in the photography section (posts) or reels container
+              var isInReelsContainer = embed.closest('.reels-container') !== null;
+              
+              if (isInReelsContainer) {
+                // Settings for reels
+                embed.style.minWidth = '280px';
+                embed.style.maxWidth = '350px';
+                embed.style.width = '100%';
+                embed.style.margin = '10px';
+                embed.style.height = '600px';
+              } else {
+                // Settings for regular posts
+                embed.style.minWidth = '300px';
+                embed.style.maxWidth = '450px';
+                embed.style.width = '100%';
+                embed.style.margin = '10px auto';
+                embed.style.height = '580px';
+              }
+              
+              // Common styles
+              embed.style.backgroundColor = 'transparent';
+              embed.style.border = 'none';
+              embed.style.borderRadius = '8px';
+              embed.style.boxShadow = '0 2px 8px rgba(255,255,255,0.1)';
+            }
+          }
 
+          // Function to handle Instagram embed loading
+          function handleInstagramEmbed() {
+            if (window.instgrm) {
+              window.instgrm.Embeds.process();
+            }
+            adjustInstagramEmbeds();
+          }
+
+          // Try to adjust sizes multiple times to ensure it works after Instagram script loads
+          setTimeout(handleInstagramEmbed, 1000);
+          setTimeout(handleInstagramEmbed, 2000);
+          setTimeout(handleInstagramEmbed, 3000);
+          setTimeout(handleInstagramEmbed, 4000);
+          
+          // Also adjust when window is resized
+          window.addEventListener('resize', adjustInstagramEmbeds);
+        });
+       </script>
 
     
         <!-- Thumbnails Section -->
